@@ -5,8 +5,9 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-const port = 3000;
 app.use(bodyParser.json()); 
+
+// Webhook for verification
 app.get('/webhook', (req, res) => {
     const VERIFY_TOKEN = 'ali99'; 
     const mode = req.query['hub.mode'];
@@ -15,16 +16,12 @@ app.get('/webhook', (req, res) => {
 
     if (mode && token) {
       if (mode === 'subscribe' && token === VERIFY_TOKEN) {  
-    
         res.status(200).send(challenge);
       } else {
         res.sendStatus(403); // Forbidden
       }
     }
-  });
-  
-
-
+});
 
 // Webhook to receive messages
 app.post('/webhook', async (req, res) => {
@@ -46,11 +43,7 @@ app.post('/webhook', async (req, res) => {
     res.sendStatus(200); // Respond with 200 OK
 });
 
+// Start the server on the specified port
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}`);
 });
-
-
-
-
-
