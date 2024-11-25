@@ -203,7 +203,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 The founder - [@alidebbakh1](https://x.com/alidebbakh1)
 
-Project Link: [https://github.com/alidebbakh/alikenech.github.io](https://github.com/alidebbakh/alikenech.github.io)
+Project Link: [https://github.com/alikeneche/alikenech.github.io](https://github.com/alikeneche/alikenech.github.io)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
