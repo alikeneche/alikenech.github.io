@@ -1,10 +1,5 @@
 <a id="readme-top"></a>
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -82,15 +77,9 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 * [![Expo][[expo.dev][https://expo.dev/]
+* [![Expo][https://img.shields.io/badge/Expo-1.0.0-blue.svg]](https://expo.dev)
+* [![Expo](https://img.shields.io/badge/Expo-%3E%3D%20SDK%2040-blue)](https://expo.dev)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
