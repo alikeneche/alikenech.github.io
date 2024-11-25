@@ -77,10 +77,8 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Expo][[expo.dev][https://expo.dev/]
-* [![Expo][https://img.shields.io/badge/Expo-1.0.0-blue.svg]](https://expo.dev)
-* [![Expo](https://img.shields.io/badge/Expo-%3E%3D%20SDK%2040-blue)](https://expo.dev)
 
+![Expo](https://img.shields.io/badge/Expo-%3E%3D%20SDK%2040-blue.svg?style=for-the-badge&logo=expo&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
