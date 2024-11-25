@@ -79,6 +79,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 ![Expo](https://img.shields.io/badge/Expo-%3E%3D%20SDK%2040-blue.svg?style=for-the-badge&logo=expo&logoColor=white)
+![JavaScript](https://img.shields.io/badge/with%20a%20logo-white?style=for-the-badge&logo=javascript&logoColor=black)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
