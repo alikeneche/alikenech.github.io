@@ -1,62 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modern Word Selector</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://unpkg.com/lucide@latest"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Applied Mathematics & Software Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-  <div class="bg-gradient"></div>
-
-  <div class="container">
-    <header>
-      <div class="badge">AI ASSISTANT</div>
-      <h2>Select a Word</h2>
-      <p class="subtitle">Choose a category to start your session</p>
-    </header>
-
-    <div id="suggestions" class="grid">
-      <button class="suggestion-card" onclick="selectWord('Hello', '👋')">
-        <div class="icon-box purple">
-          <i data-lucide="hand"></i>
-        </div>
-        <span class="word-text">Hello</span>
-        <div class="sparkle"></div>
-      </button>
-
-      <button class="suggestion-card" onclick="selectWord('World', '🌍')">
-        <div class="icon-box green">
-          <i data-lucide="globe"></i>
-        </div>
-        <span class="word-text">World</span>
-      </button>
-
-      <button class="suggestion-card" onclick="selectWord('JavaScript', '💻')">
-        <div class="icon-box blue">
-          <i data-lucide="code-2"></i>
-        </div>
-        <span class="word-text">Code</span>
-      </button>
-
-      <button class="suggestion-card" onclick="selectWord('Design', '🎨')">
-        <div class="icon-box orange">
-          <i data-lucide="palette"></i>
-        </div>
-        <span class="word-text">Design</span>
-      </button>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
     </div>
 
-    <div class="selection-display">
-      <p id="chosen-word">Ready for input...</p>
-    </div>
-  </div>
+    <main class="container">
+        <header class="glass-card profile-section">
+            <div class="avatar">AD</div>
+            <h1>ALIDOV 99</h1>
+            <p class="tagline">M2 Mathematics Student & Mobile Developer</p>
+            <div class="badges">
+                <span class="badge">Stochastic Analysis</span>
+                <span class="badge">React Native</span>
+                <span class="badge">C++ / Qt</span>
+            </div>
+        </header>
 
-  <script src="script.js"></script>
-  <script>
-    // Initialize icons
-    lucide.createIcons();
-  </script>
+        <section class="glass-card section">
+            <h2 class="section-title"><i data-lucide="graduation-cap"></i> Academic Background</h2>
+            <p>Specializing in <strong>Applied Probability and Stochastic Analysis</strong>. I bridge the gap between complex mathematical theory and high-performance software engineering.</p>
+        </section>
+
+        <h2 class="grid-label">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="glass-card project-card">
+                <div class="project-icon"><i data-lucide="smartphone"></i></div>
+                <h3>EduFlow Pro</h3>
+                <p>Mobile school management with Glassmorphism UI and PDF reporting engine.</p>
+                <div class="project-tags"><span>Expo</span><span>TypeScript</span></div>
+                <a href="#" class="project-link">View Repo →</a>
+            </div>
+
+            <div class="glass-card project-card">
+                <div class="project-icon"><i data-lucide="layout-grid"></i></div>
+                <h3>Chess99 Engine</h3>
+                <p>Advanced chess application built with custom move-validation logic.</p>
+                <div class="project-tags"><span>Python</span><span>Pygame</span></div>
+                <a href="#" class="project-link">View Repo →</a>
+            </div>
+        </div>
+
+        <section class="glass-card skills-section">
+            <h2 class="section-title"><i data-lucide="code-2"></i> Tech Stack</h2>
+            <div class="skills-flex">
+                <div class="skill-item">React Native</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">C++</div>
+                <div class="skill-item">LaTeX</div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>© 2026 Build with passion. <a href="mailto:contact@example.com">Contact Me</a></p>
+        </footer>
+    </main>
+
+    <script>lucide.createIcons();</script>
 </body>
 </html>
