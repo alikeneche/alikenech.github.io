@@ -1,22 +1,62 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Word Suggestions</title>
+  <title>Modern Word Selector</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
+  <div class="bg-gradient"></div>
+
   <div class="container">
-    <h2>Choose a Word:</h2>
-    <div id="suggestions">
-      <button class="suggestion" onclick="selectWord('Hello')">Hello</button>
-      <button class="suggestion" onclick="selectWord('World')">World</button>
-      <button class="suggestion" onclick="selectWord('JavaScript')">JavaScript</button>
+    <header>
+      <div class="badge">AI ASSISTANT</div>
+      <h2>Select a Word</h2>
+      <p class="subtitle">Choose a category to start your session</p>
+    </header>
+
+    <div id="suggestions" class="grid">
+      <button class="suggestion-card" onclick="selectWord('Hello', '👋')">
+        <div class="icon-box purple">
+          <i data-lucide="hand"></i>
+        </div>
+        <span class="word-text">Hello</span>
+        <div class="sparkle"></div>
+      </button>
+
+      <button class="suggestion-card" onclick="selectWord('World', '🌍')">
+        <div class="icon-box green">
+          <i data-lucide="globe"></i>
+        </div>
+        <span class="word-text">World</span>
+      </button>
+
+      <button class="suggestion-card" onclick="selectWord('JavaScript', '💻')">
+        <div class="icon-box blue">
+          <i data-lucide="code-2"></i>
+        </div>
+        <span class="word-text">Code</span>
+      </button>
+
+      <button class="suggestion-card" onclick="selectWord('Design', '🎨')">
+        <div class="icon-box orange">
+          <i data-lucide="palette"></i>
+        </div>
+        <span class="word-text">Design</span>
+      </button>
     </div>
-    <p id="chosen-word">You selected: <span id="selected-word"></span></p>
+
+    <div class="selection-display">
+      <p id="chosen-word">Ready for input...</p>
+    </div>
   </div>
+
   <script src="script.js"></script>
+  <script>
+    // Initialize icons
+    lucide.createIcons();
+  </script>
 </body>
 </html>
