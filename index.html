@@ -3,66 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Applied Mathematics & Software Dev</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio | Alidov99</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-    <div class="background-blobs">
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-    </div>
+    <div class="noise-overlay"></div>
+    
+    <nav class="top-nav">
+        <div class="logo">ALIDOV<span>99</span></div>
+        <div class="nav-links">
+            <a href="#">WORK</a>
+            <a href="#">MATH</a>
+            <a href="#" class="btn-yellow">HIRE ME</a>
+        </div>
+    </nav>
 
-    <main class="container">
-        <header class="glass-card profile-section">
-            <div class="avatar">AD</div>
-            <h1>ALIDOV 99</h1>
-            <p class="tagline">M2 Mathematics Student & Mobile Developer</p>
-            <div class="badges">
-                <span class="badge">Stochastic Analysis</span>
-                <span class="badge">React Native</span>
-                <span class="badge">C++ / Qt</span>
-            </div>
-        </header>
-
-        <section class="glass-card section">
-            <h2 class="section-title"><i data-lucide="graduation-cap"></i> Academic Background</h2>
-            <p>Specializing in <strong>Applied Probability and Stochastic Analysis</strong>. I bridge the gap between complex mathematical theory and high-performance software engineering.</p>
+    <main class="collage-container">
+        <section class="sticker-card hero-sticker">
+            <span class="tape"></span>
+            <h1>APPLIED PROBABILITY <br>& CODE STRATEGY</h1>
+            <p>Master 2 Student | Full-Stack Developer</p>
         </section>
 
-        <h2 class="grid-label">Featured Projects</h2>
-        <div class="projects-grid">
-            <div class="glass-card project-card">
-                <div class="project-icon"><i data-lucide="smartphone"></i></div>
-                <h3>EduFlow Pro</h3>
-                <p>Mobile school management with Glassmorphism UI and PDF reporting engine.</p>
-                <div class="project-tags"><span>Expo</span><span>TypeScript</span></div>
-                <a href="#" class="project-link">View Repo →</a>
-            </div>
-
-            <div class="glass-card project-card">
-                <div class="project-icon"><i data-lucide="layout-grid"></i></div>
-                <h3>Chess99 Engine</h3>
-                <p>Advanced chess application built with custom move-validation logic.</p>
-                <div class="project-tags"><span>Python</span><span>Pygame</span></div>
-                <a href="#" class="project-link">View Repo →</a>
-            </div>
+        <div class="photo-frame">
+            <div class="placeholder-img">AD</div>
+            <div class="caption">STATUS: ONLINE</div>
         </div>
 
-        <section class="glass-card skills-section">
-            <h2 class="section-title"><i data-lucide="code-2"></i> Tech Stack</h2>
-            <div class="skills-flex">
-                <div class="skill-item">React Native</div>
-                <div class="skill-item">JavaScript</div>
-                <div class="skill-item">Python</div>
-                <div class="skill-item">C++</div>
-                <div class="skill-item">LaTeX</div>
+        <div class="grid">
+            <div class="sticker-card project">
+                <span class="marker-tag">MOBILE</span>
+                <h3>EduFlow Pro</h3>
+                <p>Glassmorphic UI with local PDF engine.</p>
             </div>
-        </section>
 
-        <footer class="footer">
-            <p>© 2026 Build with passion. <a href="mailto:contact@example.com">Contact Me</a></p>
-        </footer>
+            <div class="sticker-card project tilt-right">
+                <span class="marker-tag">LOGIC</span>
+                <h3>Chess99</h3>
+                <p>Advanced move validation in C++ & Python.</p>
+            </div>
+        </div>
     </main>
 
     <script>lucide.createIcons();</script>
